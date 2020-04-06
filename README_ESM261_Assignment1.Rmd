@@ -1,0 +1,19 @@
+---
+title: "README_ESM261_Assignment1"
+author: "Callie Steffen,Sidney Gerst, Laura Ingulsrud"
+date: "4/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+README_ESM261_Assignment1.rmd: this file
+
+ESM261/: content to be published to the UCSB library database ## do we want this ESM261 or WorthWhale's Libary folder?
+
+
+```
+
