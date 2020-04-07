@@ -4,16 +4,56 @@ author: "Callie Steffen,Sidney Gerst, Laura Ingulsrud"
 date: "4/5/2020"
 output: html_document
 ---
+•README_ESM261_Assignment1.rmd: this file
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+•Library_Folder/:content to be published to the UCSB library database
+  •Data/: Data sources for worthwhale project
+    •Economic_Valuation/: Content for the economic analysis 
+      •Survey/: Survey Content
+        •Survey_Questions: PDF of submitted survey
+        •Survey_Responses: Excel file with survey responses
+      
+     •Marine_Spatial_Plan/: Content for the marine spatial plan
+      •AIS/: AIS data 
+        •2018_Categories_Visualization/: Content for categories visualizations for 2018
+          •Cruiseship2018/:Content for cruiseships in 2018
+             •cruiseship2018.shp: Shapefile for ais points of cruiseships in 2018
+          •Ferries2018/:
+             •ferries2018.shp: Shapefile for ais points of ferries in 2018
+          •Merchant2018/:
+            •merchant2018.shp: Shapefile for ais points of merchant ships in 2018
+          •category_map_2018_FR.mxd: ArcGIS map of the 3 different categories 
+        
+        •RawData/: Original AIS data provided by DSWP
+          •station1249_yearn.csv: station 1249 AIS data for each year n
+          •NEW_AIS2017_2019.csv: AIS data paid for by Shane for 2017- 2019 with bounding box study area
 
-```{r}
-README_ESM261_Assignment1.rmd: this file
+        •SQLite/: SQLite Database 
+          •worthwhale.sqlite: sqlite database for worthwhale project
 
-ESM261/: content to be published to the UCSB library database ## do we want this ESM261 or WorthWhale's Libary folder?
+        •Vessel_Density_Analysis_FR/: Density analysis content; source files and other data used to generate vessel density
+        
+
+      •ArcGIS_maps/: Content for ArcGIS; source files and other data used to create final maps
+        •DMA_water_areas/: Source files for Dominica's EEZ
+        • Finalmaps_MXD/: MXD files used for creating maps in the final report
+        •Fv/: Fast vessels shapefile 
+        •Inland_lane/: shapefile for inland lane
+        •Marinespatialplan/: files used to create the vessel recommendation map
+        •NorthSouthDivide/: files used to create the divide of northbound and southbound lanes
+        •Offshoredivide/: files used to create the divide of the offshore lanes
+        •Offshorelane/: files used to create the offshore lanes
+        •Slow_speed_zone/: files used to create the slow speed zone
+        •Slowspeedzone/: files used to create the slow speed zone
+        •Spz_84/: files used to create the slow speed zone in WGS 84
+        
 
 
-```
+      
+        
+
+    
+
+
+
 
